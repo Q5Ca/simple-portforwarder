@@ -1,5 +1,6 @@
 # simple-portforwarder
-Simple portforwarder I prepared for SVATTT2019 final - an attack/defense style CTF.
+Simple portforwarder I prepared for SVATTT2019 final - an attack/defense style CTF.  
+It is based on this code: [https://gist.github.com/sandrogauci/9618007](https://gist.github.com/sandrogauci/9618007)
 
 ## Features
 - Listen on one port and forward traffic to another port on same host or other host.
@@ -67,8 +68,8 @@ Run it with:
 ```
 
 # Result
-Access log:
+Access log:  
 ![0.PNG](screenshots/0.PNG)  
 
-Filter log:
+Filter log:  
 ![1.PNG](screenshots/1.PNG)
