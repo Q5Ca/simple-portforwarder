@@ -44,6 +44,8 @@ class Filter:
 				Filter.log('[WARNING] string %s in request %s\r\n' % (string_rule['sign'], id))
 				if string_rule['action'] != 0:
 					return string_rule['action']
+		# New feature: HTTP request parsing
+		# TODO
 		return 0
 
 	@staticmethod
